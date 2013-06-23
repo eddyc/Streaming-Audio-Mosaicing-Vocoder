@@ -1,0 +1,19 @@
+1. 
+
+triangle filters = 30
+bands = 10
+segment length = 2
+
+analysis = input.wav
+palette = sava.wav
+mode = framed
+
+2.
+
+triangle filters = 30
+bands = 10
+segment length = 20
+
+analysis = eyes.wav
+palette = sava.wav
+mode = beats

@@ -1,0 +1,5 @@
+/*!
+* @framework Matrix
+* @abstract C pseudo-class for performing Matrix arithmatic
+* @discussion This pseudoclass can be used to perform MATLAB style matrix arithmatic.
+*/
