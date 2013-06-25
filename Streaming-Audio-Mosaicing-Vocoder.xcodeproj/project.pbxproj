@@ -24,7 +24,6 @@
 		442FB1371771FFCF00D33DD9 /* CsoundLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12E1771FFCF00D33DD9 /* CsoundLib.framework */; };
 		442FB1381771FFCF00D33DD9 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12F1771FFCF00D33DD9 /* AudioUnit.framework */; };
 		442FB1391771FFCF00D33DD9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1301771FFCF00D33DD9 /* Accelerate.framework */; };
-		442FB13A1771FFCF00D33DD9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1311771FFCF00D33DD9 /* SenTestingKit.framework */; };
 		442FB13B1771FFCF00D33DD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1321771FFCF00D33DD9 /* AudioToolbox.framework */; };
 		442FB1421772000400D33DD9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1311771FFCF00D33DD9 /* SenTestingKit.framework */; };
 		442FB1441772000400D33DD9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1431772000400D33DD9 /* Cocoa.framework */; };
@@ -54,6 +53,8 @@
 		442FB16E177200BB00D33DD9 /* RingBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 442FB1231771FF9400D33DD9 /* RingBuffer.c */; };
 		442FB1701772028100D33DD9 /* libhdf5.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB16F1772028100D33DD9 /* libhdf5.8.dylib */; };
 		442FB1711772028100D33DD9 /* libhdf5.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB16F1772028100D33DD9 /* libhdf5.8.dylib */; };
+		44318C971779B1AC00ADA3D8 /* MathematicalFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 44D68A011771FDBA0016B6DD /* MathematicalFunctions.c */; };
+		44318C981779B1B300ADA3D8 /* ConvenienceFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 44D689FF1771FDBA0016B6DD /* ConvenienceFunctions.c */; };
 		44D689D61771FCED0016B6DD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 44D689D51771FCED0016B6DD /* main.c */; };
 		44D68A0A1771FDF60016B6DD /* CsoundObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 44D68A071771FDF60016B6DD /* CsoundObject.c */; };
 		44D68A1A1771FE500016B6DD /* OpenCLDTW.c in Sources */ = {isa = PBXBuildFile; fileRef = 44D68A131771FE500016B6DD /* OpenCLDTW.c */; };
@@ -171,7 +172,6 @@
 				442FB1371771FFCF00D33DD9 /* CsoundLib.framework in Frameworks */,
 				442FB1381771FFCF00D33DD9 /* AudioUnit.framework in Frameworks */,
 				442FB1391771FFCF00D33DD9 /* Accelerate.framework in Frameworks */,
-				442FB13A1771FFCF00D33DD9 /* SenTestingKit.framework in Frameworks */,
 				442FB13B1771FFCF00D33DD9 /* AudioToolbox.framework in Frameworks */,
 				442FB1701772028100D33DD9 /* libhdf5.8.dylib in Frameworks */,
 			);
@@ -488,10 +488,12 @@
 				442FB0F41771FECF00D33DD9 /* BeatDetect.c in Sources */,
 				442FB0F61771FECF00D33DD9 /* DTW.c in Sources */,
 				442FB0F71771FECF00D33DD9 /* FFT.c in Sources */,
+				44318C981779B1B300ADA3D8 /* ConvenienceFunctions.c in Sources */,
 				442FB0F91771FECF00D33DD9 /* TriangleFilterBank.c in Sources */,
 				442FB1101771FF5100D33DD9 /* AudioIOProcess.c in Sources */,
 				442FB1111771FF5100D33DD9 /* AudioObject.c in Sources */,
 				442FB1251771FF9400D33DD9 /* AudioAnalysisData.c in Sources */,
+				44318C971779B1AC00ADA3D8 /* MathematicalFunctions.c in Sources */,
 				442FB1261771FF9400D33DD9 /* AudioAnalysisQueue.c in Sources */,
 				442FB1271771FF9400D33DD9 /* Matrix.c in Sources */,
 				442FB1281771FF9400D33DD9 /* RingBuffer.c in Sources */,
