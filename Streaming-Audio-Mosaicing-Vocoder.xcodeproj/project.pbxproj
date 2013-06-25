@@ -622,7 +622,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/lib/libhdf5.dylib,
 					/usr/local/Cellar/hdf5/1.8.11/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -638,7 +637,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/lib/libhdf5.dylib,
 					/usr/local/Cellar/hdf5/1.8.11/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
