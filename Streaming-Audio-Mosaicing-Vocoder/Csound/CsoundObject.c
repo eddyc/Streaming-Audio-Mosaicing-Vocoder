@@ -27,7 +27,7 @@ CsoundObject *CsoundObject_new(char *csdPath, size_t analysisSegmentFramesCount)
         self->frameTimes[i] = ((1. / 44100) * 256) * i;
     }
     
-    csoundPreCompile(self->csound);
+//    csoundPreCompile(self->csound);
     csoundSetHostImplementedAudioIO(self->csound, 1, 0);
     csoundSetHostData(self->csound, self);
     self->channelsCount = 2;
@@ -80,7 +80,8 @@ void CsoundObject_writeDataToTable(CsoundObject *self, UInt32 tableNumber, Float
     
     Float32 *tablePointer;
     
-    csoundGetTable(self->csound, &tablePointer, tableNumber);
+    SInt32 returnValue = csoundGetTable(self->csound, &tablePointer, tableNumber);
+    
     
     cblas_scopy((UInt32)dataCount, data, 1, tablePointer, 1);
     
