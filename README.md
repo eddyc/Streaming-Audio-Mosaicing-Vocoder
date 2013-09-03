@@ -4,6 +4,6 @@ Source code for a streaming audio mosaicing system which is presented as part of
 
 ##Requirements##
 
-Csound API
+Csound 5 API
 
-HDF5 
+HDF5 1.8
