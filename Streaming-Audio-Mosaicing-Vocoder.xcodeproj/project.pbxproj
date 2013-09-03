@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4412C30F177F092300F0FE31 /* CsoundLib64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4412C30E177F092300F0FE31 /* CsoundLib64.framework */; };
-		4412C310177F092300F0FE31 /* CsoundLib64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4412C30E177F092300F0FE31 /* CsoundLib64.framework */; };
-		4412C313177F095100F0FE31 /* CsoundLib64 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4412C312177F095100F0FE31 /* CsoundLib64 */; };
 		442FB0F31771FECF00D33DD9 /* AudioAnalyser.c in Sources */ = {isa = PBXBuildFile; fileRef = 442FB0E51771FECF00D33DD9 /* AudioAnalyser.c */; };
 		442FB0F41771FECF00D33DD9 /* BeatDetect.c in Sources */ = {isa = PBXBuildFile; fileRef = 442FB0E71771FECF00D33DD9 /* BeatDetect.c */; };
 		442FB0F61771FECF00D33DD9 /* DTW.c in Sources */ = {isa = PBXBuildFile; fileRef = 442FB0EB1771FECF00D33DD9 /* DTW.c */; };
@@ -24,6 +21,7 @@
 		442FB1341771FFCF00D33DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12B1771FFCF00D33DD9 /* Foundation.framework */; };
 		442FB1351771FFCF00D33DD9 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12C1771FFCF00D33DD9 /* OpenCL.framework */; };
 		442FB1361771FFCF00D33DD9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12D1771FFCF00D33DD9 /* CoreFoundation.framework */; };
+		442FB1371771FFCF00D33DD9 /* CsoundLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12E1771FFCF00D33DD9 /* CsoundLib.framework */; };
 		442FB1381771FFCF00D33DD9 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12F1771FFCF00D33DD9 /* AudioUnit.framework */; };
 		442FB1391771FFCF00D33DD9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1301771FFCF00D33DD9 /* Accelerate.framework */; };
 		442FB13B1771FFCF00D33DD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1321771FFCF00D33DD9 /* AudioToolbox.framework */; };
@@ -34,6 +32,7 @@
 		442FB1571772005700D33DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12B1771FFCF00D33DD9 /* Foundation.framework */; };
 		442FB1581772005700D33DD9 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12C1771FFCF00D33DD9 /* OpenCL.framework */; };
 		442FB1591772005700D33DD9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12D1771FFCF00D33DD9 /* CoreFoundation.framework */; };
+		442FB15A1772005700D33DD9 /* CsoundLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12E1771FFCF00D33DD9 /* CsoundLib.framework */; };
 		442FB15B1772005700D33DD9 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB12F1771FFCF00D33DD9 /* AudioUnit.framework */; };
 		442FB15C1772005700D33DD9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1301771FFCF00D33DD9 /* Accelerate.framework */; };
 		442FB15D1772005700D33DD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442FB1321771FFCF00D33DD9 /* AudioToolbox.framework */; };
@@ -64,16 +63,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4412C311177F092E00F0FE31 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				4412C313177F095100F0FE31 /* CsoundLib64 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		44D689D01771FCED0016B6DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,8 +75,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4412C30E177F092300F0FE31 /* CsoundLib64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CsoundLib64.framework; path = ../../../Library/Frameworks/CsoundLib64.framework; sourceTree = "<group>"; };
-		4412C312177F095100F0FE31 /* CsoundLib64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CsoundLib64; path = ../../../Library/Frameworks/CsoundLib64.framework/Versions/6.0/CsoundLib64; sourceTree = "<group>"; };
 		442FB0E51771FECF00D33DD9 /* AudioAnalyser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AudioAnalyser.c; sourceTree = "<group>"; };
 		442FB0E61771FECF00D33DD9 /* AudioAnalyser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioAnalyser.h; sourceTree = "<group>"; };
 		442FB0E71771FECF00D33DD9 /* BeatDetect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BeatDetect.c; sourceTree = "<group>"; };
@@ -114,6 +101,7 @@
 		442FB12B1771FFCF00D33DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		442FB12C1771FFCF00D33DD9 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
 		442FB12D1771FFCF00D33DD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		442FB12E1771FFCF00D33DD9 /* CsoundLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CsoundLib.framework; path = ../../../../../../../Library/Frameworks/CsoundLib.framework; sourceTree = "<group>"; };
 		442FB12F1771FFCF00D33DD9 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		442FB1301771FFCF00D33DD9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		442FB1311771FFCF00D33DD9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -164,13 +152,13 @@
 				442FB1571772005700D33DD9 /* Foundation.framework in Frameworks */,
 				442FB1581772005700D33DD9 /* OpenCL.framework in Frameworks */,
 				442FB1591772005700D33DD9 /* CoreFoundation.framework in Frameworks */,
+				442FB15A1772005700D33DD9 /* CsoundLib.framework in Frameworks */,
 				442FB15B1772005700D33DD9 /* AudioUnit.framework in Frameworks */,
 				442FB15C1772005700D33DD9 /* Accelerate.framework in Frameworks */,
 				442FB1421772000400D33DD9 /* SenTestingKit.framework in Frameworks */,
 				442FB15D1772005700D33DD9 /* AudioToolbox.framework in Frameworks */,
 				442FB1441772000400D33DD9 /* Cocoa.framework in Frameworks */,
 				442FB1711772028100D33DD9 /* libhdf5.8.dylib in Frameworks */,
-				4412C310177F092300F0FE31 /* CsoundLib64.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,11 +169,11 @@
 				442FB1341771FFCF00D33DD9 /* Foundation.framework in Frameworks */,
 				442FB1351771FFCF00D33DD9 /* OpenCL.framework in Frameworks */,
 				442FB1361771FFCF00D33DD9 /* CoreFoundation.framework in Frameworks */,
+				442FB1371771FFCF00D33DD9 /* CsoundLib.framework in Frameworks */,
 				442FB1381771FFCF00D33DD9 /* AudioUnit.framework in Frameworks */,
 				442FB1391771FFCF00D33DD9 /* Accelerate.framework in Frameworks */,
 				442FB13B1771FFCF00D33DD9 /* AudioToolbox.framework in Frameworks */,
 				442FB1701772028100D33DD9 /* libhdf5.8.dylib in Frameworks */,
-				4412C30F177F092300F0FE31 /* CsoundLib64.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,12 +227,11 @@
 		442FB1291771FFBE00D33DD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4412C312177F095100F0FE31 /* CsoundLib64 */,
 				442FB16F1772028100D33DD9 /* libhdf5.8.dylib */,
-				4412C30E177F092300F0FE31 /* CsoundLib64.framework */,
 				442FB12B1771FFCF00D33DD9 /* Foundation.framework */,
 				442FB12C1771FFCF00D33DD9 /* OpenCL.framework */,
 				442FB12D1771FFCF00D33DD9 /* CoreFoundation.framework */,
+				442FB12E1771FFCF00D33DD9 /* CsoundLib.framework */,
 				442FB12F1771FFCF00D33DD9 /* AudioUnit.framework */,
 				442FB1301771FFCF00D33DD9 /* Accelerate.framework */,
 				442FB1311771FFCF00D33DD9 /* SenTestingKit.framework */,
@@ -383,7 +370,6 @@
 				442FB13D1772000400D33DD9 /* Frameworks */,
 				442FB13E1772000400D33DD9 /* Resources */,
 				442FB13F1772000400D33DD9 /* ShellScript */,
-				4412C311177F092E00F0FE31 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -535,7 +521,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					/Library/Frameworks,
-					"\"$(SRCROOT)/../../Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -556,7 +541,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					/Library/Frameworks,
-					"\"$(SRCROOT)/../../Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -635,7 +619,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					/Library/Frameworks,
-					"\"$(SRCROOT)/../../Library/Frameworks\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -651,7 +634,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					/Library/Frameworks,
-					"\"$(SRCROOT)/../../Library/Frameworks\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
