@@ -5,7 +5,7 @@ This repository stores the source code for a streaming audio mosaicing system wh
 
 The paper should be available [here](http://dafx13.nuim.ie/papers/31.dafx2013_submission_55.pdf). 
 
-##Requirements##
+##Dependencies##
 
 - Mac OS X 10.7 or greater
 
